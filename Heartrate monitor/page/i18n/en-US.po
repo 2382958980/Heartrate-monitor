@@ -1,0 +1,3 @@
+
+msgid "appName"
+msgstr "心率监测预警系统"

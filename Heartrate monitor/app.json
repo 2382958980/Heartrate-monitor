@@ -1,0 +1,68 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 20001,
+    "appName": "心率监测预警",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.3"
+    },
+    "icon": "icon.png",
+    "vender": "hjm",
+    "description": "心率监测预警"
+  },
+  "permissions": [ "data:os.device.info", "device:os.local_storage", "data:user.hd.heart_rate" ],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "2.0.0",
+      "target": "2.0.0",
+      "minVersion": "2.0"
+    }
+  },
+  "debug": false,
+  "targets": {
+    "gtr": {
+      "module": {
+        "page": {
+          "pages": ["page/gtr/home/index.page"]
+        }
+      },
+      "platforms": [
+        {
+          "name": "gtr4",
+          "deviceSource": 7930112
+        },
+        {
+          "name": "gtr4-w",
+          "deviceSource": 7930113
+        }
+      ],
+      "designWidth": 466
+    },
+    "gts": {
+      "module": {
+        "page": {
+          "pages": ["page/gts/home/index.page"]
+        }
+      },
+      "platforms": [
+        {
+          "name": "gts4",
+          "deviceSource": 7995648
+        },
+        {
+          "name": "gts4-w",
+          "deviceSource": 7995649
+        }
+      ],
+      "designWidth": 390
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "心率监测预警"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
